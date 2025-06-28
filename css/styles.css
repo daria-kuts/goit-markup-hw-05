@@ -12,7 +12,10 @@ ul{
     margin-bottom: 0;
     padding-left: 0;
 }
-
+input{
+    font-family: inherit;
+    
+}
 h1, h2, h3, p {
 margin-top: 0;
 margin-bottom: 0;
@@ -339,7 +342,7 @@ margin-bottom: 8px;
 background-color: #2e2f42;
 padding: 100px 0;
 display: flex;
-justify-content: flex-start;
+justify-content: space-between;
 }
 .logo-footer{
     color: #4d5ae5;
@@ -478,7 +481,7 @@ margin-bottom: 16px;
 .social-media-footer{
 
 margin-left: 60px;
-
+margin-right: 80px;
 }
 .social-link-footer:hover{
     background-color: #31D0AA;
@@ -515,3 +518,30 @@ margin-left: 60px;
     transform: translateY(100%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+        .footer-form {
+            display: flex; 
+         gap: 24px;
+        }
+    .label-input-footer{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.50;
+        letter-spacing: 0.02em;
+        color: #fff;
+        margin-bottom: 16px;
+    }
+    .input-footer{
+        border: 1px solid #fff;
+            border-radius: 4px;
+            width: 264px;
+            height: 40px;
+            box-shadow: 0 4px 4px 0 rgba(0,0, 0, 0.15);
+            background-color: #2e2f42;
+            
+    }
+        .container-input-footer {
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .subscribe-btn {   }
