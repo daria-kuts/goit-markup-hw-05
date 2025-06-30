@@ -622,7 +622,7 @@ pointer-events: none;
         
 }
 .icon-modal-close {
-    color: #2e2f42;
+    fill: #2e2f42;
 }
 
 .modal-form-title {
@@ -651,7 +651,7 @@ pointer-events: none;
         height: 40px;
         background-color: #fcfcfc;
         margin-bottom: 8px;
-        padding: 11px 38px;
+        padding: 8px 38px;
 }
 
 .modal-label-input {
@@ -709,14 +709,17 @@ pointer-events: none;
 }
 .input-wrapper{
     position: relative;
-    display: inline-flex;
-    align-items: center;
 }
 
-.input-wrapper .input-icon {
-    position: absolute;
-    left: 16px;
-   
+.input-icon {
+top: 50%;
+transform: translateY(-50%);
+position: absolute;
+left: 16px;
+width: 18px;
+display: flex;
+align-items: center;
+
 }
 .input-wrapper .input-icon svg{
      fill: #2e2f42;
